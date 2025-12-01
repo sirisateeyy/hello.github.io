@@ -21,7 +21,7 @@
             text-align: center;
             border-radius: 10px;}
       
-      section{background: linear-gradient(#DEFFFF, #FFE5FE);
+      section{background: linear-gradient(#BDFFBD, #FFFFB0);
              padding: 15px;
              margin: 20px auto;
              width: 70%;
@@ -42,6 +42,16 @@
         75% {box-shadow: 0 0 100px #E0B0FF;}
         87.5% {box-shadow: 0 0 100px #FFFAA0;}
       }
+
+      .blink-bg{
+        animation: blinkbg 1s infinite alternate;
+        padding: 3px 6px;
+      }
+      @keyframes blinkbg{
+        0% {background: yellow;}
+        100% (background: orange;}
+      }
+
       
     </style>
   </head>
